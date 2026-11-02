@@ -16,6 +16,7 @@
             <a href="#" class="text-xl font-bold text-indigo-400">Rizki Fajari<span class="text-white">.dev</span></a>
             <div class="space-x-6 text-sm font-medium hidden md:block">
                 <a href="#about" class="hover:text-indigo-400 transition">Tentang</a>
+                <a href="#experience" class="hover:text-indigo-400 transition">Pengalaman</a>
                 <a href="#skills" class="hover:text-indigo-400 transition">Keahlian</a>
                 <a href="#projects" class="hover:text-indigo-400 transition">Proyek</a>
                 <a href="#contact" class="hover:text-indigo-400 transition">Kontak</a>
@@ -23,126 +24,208 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="min-h-screen flex items-center justify-center pt-16 px-4">
+    <!-- Hero Section with Photo -->
+    <section class="min-h-screen flex items-center justify-center pt-20 pb-12 px-4">
         <div class="max-w-4xl text-center">
-            <span class="text-indigo-400 text-sm font-semibold tracking-wider uppercase bg-indigo-500/10 px-3 py-1 rounded-full border border-indigo-500/20">Lulusan D4 Teknik Informatika</span>
-            <h1 class="text-4xl md:text-6xl font-extrabold mt-4 mb-6 tracking-tight">
+            <!-- Frame Foto Profil -->
+            <div class="mb-6 flex justify-center">
+                <div class="relative w-36 h-36 md:w-44 md:h-44 rounded-full p-1 bg-gradient-to-r from-indigo-500 to-cyan-400 shadow-xl shadow-indigo-500/20">
+                    <img src="foto-profil.jpg" alt="Rizki Fajari" class="w-full h-full object-cover rounded-full border-4 border-slate-900" onerror="this.src='https://ui-avatars.com/api/?name=Rizki+Fajari&background=1e293b&color=818cf8&size=200'">
+                </div>
+            </div>
+
+            <span class="text-indigo-400 text-sm font-semibold tracking-wider uppercase bg-indigo-500/10 px-4 py-1.5 rounded-full border border-indigo-500/20">D4 Teknik Informatika - Politeknik Caltex Riau</span>
+            <h1 class="text-3xl md:text-5xl font-extrabold mt-4 mb-4 tracking-tight">
                 Halo, Saya <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Rizki Fajari</span>
             </h1>
-            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
-                Fokus pada pengembangan web, analisis data, manajemen proyek, serta memiliki keahlian di bidang visual (fotografi, videografi & desain).
+            <p class="text-base md:text-lg text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
+                Fokus pada pengembangan web, analisis data, manajemen proyek, dan administrator. Didukung oleh keterampilan visual (fotografi, videografi, dan desain poster) untuk efektivitas kerja tim.
             </p>
-            <div class="flex justify-center space-x-4">
+            <div class="flex flex-wrap justify-center gap-4">
                 <a href="#projects" class="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-6 py-3 rounded-lg shadow-lg shadow-indigo-500/30 transition">Lihat Proyek</a>
-                <a href="#contact" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium px-6 py-3 rounded-lg transition">Hubungi Saya</a>
+                <a href="#experience" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium px-6 py-3 rounded-lg transition">Lihat Pengalaman</a>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 bg-slate-800/50">
+    <section id="about" class="py-16 bg-slate-800/50">
         <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center">Tentang Saya</h2>
+            <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center text-indigo-400">Tentang Saya</h2>
             <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700/50 shadow-xl leading-relaxed text-slate-300">
                 <p class="mb-4">
-                    Saya adalah alumni Politeknik Caltex Riau jurusan D4 Teknik Informatika. Selain mengasah keterampilan teknis melalui berbagai proyek pengembangan perangkat lunak dan analisis data, saya juga aktif dalam bidang visual seperti fotografi, videografi, dan desain poster dalam organisasi kemahasiswaan.
+                    Saya adalah alumni Politeknik Caltex Riau jurusan D4 Teknik Informatika (IPK 3.55/4.00). Selain mengasah keterampilan teknis melalui berbagai proyek pengembangan perangkat lunak, analisis data, dan administrator, saya juga memiliki pengalaman aktif di bidang visual seperti fotografi, videografi, dan desain poster.
                 </p>
                 <p>
-                    Saya berkomitmen memanfaatkan teknologi untuk menyederhanakan proses, meningkatkan efisiensi, dan mendukung pertumbuhan organisasi melalui kemampuan pemrograman dan manajemen proyek yang saya miliki.
+                    Saya sangat antusias untuk berkontribusi dalam pengelolaan dan pengembangan sistem informasi secara profesional, serta berkomitmen memanfaatkan teknologi untuk menyederhanakan proses dan meningkatkan efisiensi organisasi.
                 </p>
             </div>
         </div>
     </section>
 
+    <!-- Organization & Event Experience Section -->
+    <section id="experience" class="py-16">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-12 text-center text-indigo-400">Pengalaman Organisasi & Kepanitiaan</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Organisasi 1 -->
+                <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700/60 shadow-md">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-bold text-lg text-white">ITSA (Information Technology Student Association)</h3>
+                        <span class="text-xs font-medium text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded-full border border-indigo-500/20">2022 - 2026</span>
+                    </div>
+                    <p class="text-xs text-slate-400 mb-3">Politeknik Caltex Riau</p>
+                    <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5">
+                        <li>Anggota Himpunan Mahasiswa ITSA (2022 - 2026).</li>
+                        <li>Anggota Divisi Dokumentasi kegiatan ITSA CUP VOLY 2023.</li>
+                    </ul>
+                </div>
+
+                <!-- Organisasi 2 -->
+                <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700/60 shadow-md">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-bold text-lg text-white">KM PCR-ROHIL</h3>
+                        <span class="text-xs font-medium text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded-full border border-indigo-500/20">2022 - 2026</span>
+                    </div>
+                    <p class="text-xs text-slate-400 mb-3">Keluarga Mahasiswa Politeknik Caltex Riau - Rokan Hilir</p>
+                    <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5">
+                        <li>Pengurus Aktif Divisi Kominfo KM PCR-ROHIL.</li>
+                        <li>Divisi Dokumentasi berbagai kegiatan (Project Action Plan, Kelas Desain, MUBES III, Capacity Building).</li>
+                        <li>Koordinator Divisi Publikasi Event PCR B2C 2023 & Anggota Divisi Kominfo (2024).</li>
+                    </ul>
+                </div>
+
+                <!-- Kepanitiaan Campus Level -->
+                <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700/60 shadow-md">
+                    <h3 class="font-bold text-lg text-white mb-1">Kepanitiaan Tingkat Kampus</h3>
+                    <p class="text-xs text-slate-400 mb-3">Politeknik Caltex Riau</p>
+                    <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5">
+                        <li>Panitia Turnamen Futsal Pelajar Rokan Hilir (Divisi Dokumentasi).</li>
+                        <li>Panitia PCR-GTS (2023 & 2024).</li>
+                        <li>Anggota Divisi Kominfo Event USC PCR (2023 & 2024).</li>
+                    </ul>
+                </div>
+
+                <!-- Career Center & PKM -->
+                <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700/60 shadow-md">
+                    <h3 class="font-bold text-lg text-white mb-1">Sumatera Career Center & Pengabdian</h3>
+                    <p class="text-xs text-slate-400 mb-3">Politeknik Caltex Riau</p>
+                    <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5">
+                        <li>Panitia Pembekalan Karir Calon Wisudawan & Pembekalan Alumni bersama P&G.</li>
+                        <li>Panitia Campus Hiring (PT SLB Indonesia & Wings Group).</li>
+                        <li>Pemateri Pengabdian Masyarakat: Desain Canva (SMAN 1 Bangko) & Logika Pemrograman Scratch (SMK N 1 Rimba Melintang).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Skills Section -->
-    <section id="skills" class="py-20">
+    <section id="skills" class="py-16 bg-slate-800/50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center">Keahlian & Teknologi</h2>
+            <h2 class="text-2xl md:text-3xl font-bold mb-12 text-center text-indigo-400">Keahlian & Perangkat Lunak</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Skill Card 1 -->
                 <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50">
                     <div class="w-12 h-12 bg-indigo-500/10 text-indigo-400 rounded-lg flex items-center justify-center text-2xl mb-4">
                         <i class="fa-solid fa-code"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Web & Dev</h3>
-                    <p class="text-slate-400 text-sm">CodeIgniter, Laravel, HTML/CSS, JavaScript, Mobile Dev, UI/UX Prototyping.</p>
+                    <h3 class="text-xl font-bold mb-3">Web & Mobile Dev</h3>
+                    <p class="text-slate-400 text-sm">CodeIgniter, Laravel, Mobile Programming, UI/UX Prototyping, VS Code, HTML/CSS, JavaScript.</p>
                 </div>
-                <!-- Skill Card 2 -->
                 <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50">
                     <div class="w-12 h-12 bg-cyan-500/10 text-cyan-400 rounded-lg flex items-center justify-center text-2xl mb-4">
                         <i class="fa-solid fa-database"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Data & Management</h3>
-                    <p class="text-slate-400 text-sm">Data Warehouse, Machine Learning (Logistic Regression), Manajemen Proyek, System Administration.</p>
+                    <h3 class="text-xl font-bold mb-3">Data & Systems</h3>
+                    <p class="text-slate-400 text-sm">Data Warehouse (Analisis Deskriptif & Prediktif), Machine Learning (Logistic Regression), System Administration, MatLab.</p>
                 </div>
-                <!-- Skill Card 3 -->
                 <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50">
                     <div class="w-12 h-12 bg-purple-500/10 text-purple-400 rounded-lg flex items-center justify-center text-2xl mb-4">
                         <i class="fa-solid fa-camera"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Visual & Design</h3>
-                    <p class="text-slate-400 text-sm">Blender 3D, Premiere Pro, Photoshop, CapCut, Canva, Fotografi & Videografi.</p>
+                    <h3 class="text-xl font-bold mb-3">Visual & Software</h3>
+                    <p class="text-slate-400 text-sm">Blender 3D, Premiere Pro, Photoshop, CapCut PC, Canva, Game Maker, Videografi, Fotografi, Desain Poster.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-slate-800/50">
+    <section id="projects" class="py-16">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center">Proyek Pilihan</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <h2 class="text-2xl md:text-3xl font-bold mb-12 text-center text-indigo-400">Proyek Portofolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <!-- Project 1 -->
-                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700/50 hover:border-indigo-500/50 transition">
-                    <div class="p-6">
-                        <span class="text-xs font-semibold text-indigo-400 bg-indigo-500/10 px-2 py-1 rounded">Website & Prototyping</span>
-                        <h3 class="text-xl font-bold mt-3 mb-2">SIAKAD SMK AL-Washliyah</h3>
-                        <p class="text-slate-400 text-sm mb-4">Rancang Bangun Sistem Informasi Akademik berbasis website menggunakan metode Prototyping (Tugas Akhir 2026).</p>
-                        <div class="flex flex-wrap gap-2 text-xs text-slate-300">
-                            <span class="bg-slate-700 px-2 py-1 rounded">Web Dev</span>
-                            <span class="bg-slate-700 px-2 py-1 rounded">Prototyping</span>
-                        </div>
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-semibold text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded">Tugas Akhir</span>
+                        <h3 class="text-lg font-bold mt-3 mb-2">SIAKAD SMK AL-Washliyah</h3>
+                        <p class="text-slate-400 text-sm mb-4">Rancang Bangun Sistem Informasi Akademik berbasis website menggunakan metode Prototyping (2026).</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-xs text-slate-300">
+                        <span class="bg-slate-700 px-2 py-1 rounded">Web Dev</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded">Prototyping</span>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700/50 hover:border-indigo-500/50 transition">
-                    <div class="p-6">
-                        <span class="text-xs font-semibold text-indigo-400 bg-indigo-500/10 px-2 py-1 rounded">E-Commerce</span>
-                        <h3 class="text-xl font-bold mt-3 mb-2">Fattah Variasi E-Commerce</h3>
-                        <p class="text-slate-400 text-sm mb-4">Website penjualan sparepart motor variasi dan sistem penjualan barang harian berbasis CodeIgniter.</p>
-                        <div class="flex flex-wrap gap-2 text-xs text-slate-300">
-                            <span class="bg-slate-700 px-2 py-1 rounded">CodeIgniter</span>
-                            <span class="bg-slate-700 px-2 py-1 rounded">PHP</span>
-                        </div>
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-semibold text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded">E-Commerce</span>
+                        <h3 class="text-lg font-bold mt-3 mb-2">Fattah Variasi E-Commerce</h3>
+                        <p class="text-slate-400 text-sm mb-4">Website penjualan sparepart motor variasi dan sistem penjualan barang harian berbasis CodeIgniter (2023).</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-xs text-slate-300">
+                        <span class="bg-slate-700 px-2 py-1 rounded">CodeIgniter</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded">Framework 1</span>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
-                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700/50 hover:border-indigo-500/50 transition">
-                    <div class="p-6">
-                        <span class="text-xs font-semibold text-cyan-400 bg-cyan-500/10 px-2 py-1 rounded">Machine Learning & Mobile</span>
-                        <h3 class="text-xl font-bold mt-3 mb-2">Aplikasi Pendeteksi Malnutrisi</h3>
-                        <p class="text-slate-400 text-sm mb-4">Pengembangan aplikasi pendeteksi dan pencegahan malnutrisi serta status gizi menggunakan Logistic Regression.</p>
-                        <div class="flex flex-wrap gap-2 text-xs text-slate-300">
-                            <span class="bg-slate-700 px-2 py-1 rounded">Machine Learning</span>
-                            <span class="bg-slate-700 px-2 py-1 rounded">Mobile</span>
-                        </div>
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-semibold text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded">AI & Mobile</span>
+                        <h3 class="text-lg font-bold mt-3 mb-2">Aplikasi Pendeteksi Malnutrisi</h3>
+                        <p class="text-slate-400 text-sm mb-4">Aplikasi Pendeteksi dan Pencegahan Malnutrisi serta Status Gizi berbasis Machine Learning (Logistic Regression).</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-xs text-slate-300">
+                        <span class="bg-slate-700 px-2 py-1 rounded">Machine Learning</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded">Mobile</span>
                     </div>
                 </div>
 
-                <!-- Project 4 -->
-                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700/50 hover:border-indigo-500/50 transition">
-                    <div class="p-6">
-                        <span class="text-xs font-semibold text-purple-400 bg-purple-500/10 px-2 py-1 rounded">Web App</span>
-                        <h3 class="text-xl font-bold mt-3 mb-2">Papan Informasi Digital (Les Kumon)</h3>
-                        <p class="text-slate-400 text-sm mb-4">Pengembangan sistem papan informasi digital interaktif untuk sekolah berbasis framework Laravel.</p>
-                        <div class="flex flex-wrap gap-2 text-xs text-slate-300">
-                            <span class="bg-slate-700 px-2 py-1 rounded">Laravel</span>
-                            <span class="bg-slate-700 px-2 py-1 rounded">Team Work</span>
-                        </div>
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-semibold text-purple-400 bg-purple-500/10 px-2.5 py-1 rounded">Animasi 3D</span>
+                        <h3 class="text-lg font-bold mt-3 mb-2">3D Model Puskesmas & Animasi</h3>
+                        <p class="text-slate-400 text-sm mb-4">Pembuatan Desain 3D Puskesmas Bagan Punak dan kontribusi animasi/rigging pada Film Animasi Era Digital menggunakan Blender.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-xs text-slate-300">
+                        <span class="bg-slate-700 px-2 py-1 rounded">Blender 3D</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded">Rigging</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-semibold text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded">Game Dev</span>
+                        <h3 class="text-lg font-bold mt-3 mb-2">Forest Guardian & 3D Game</h3>
+                        <p class="text-slate-400 text-sm mb-4">Pengembangan Game 2D "Forest Guardian" (Game Maker) & Game 3D "Secret Legends Of The Lost" (Unity).</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-xs text-slate-300">
+                        <span class="bg-slate-700 px-2 py-1 rounded">Unity</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded">Game Maker</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-semibold text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded">Data Warehouse</span>
+                        <h3 class="text-lg font-bold mt-3 mb-2">Analisis Konsumsi Listrik Mobil</h3>
+                        <p class="text-slate-400 text-sm mb-4">Melakukan analisis data deskriptif & prediktif untuk konsumsi listrik pada mobil listrik menggunakan data warehouse.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-xs text-slate-300">
+                        <span class="bg-slate-700 px-2 py-1 rounded">Data Analytics</span>
+                        <span class="bg-slate-700 px-2 py-1 rounded">E-Commerce Data</span>
                     </div>
                 </div>
 
@@ -151,12 +234,12 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-16 bg-slate-800/50">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-4">Mari Berkolaborasi</h2>
-            <p class="text-slate-400 mb-8">Saya terbuka untuk kesempatan kerja, magang, maupun proyek kolaborasi.</p>
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-400">Mari Berkolaborasi</h2>
+            <p class="text-slate-400 mb-8">Saya terbuka untuk kesempatan magang, posisi entry-level, maupun proyek kolaborasi.</p>
             
-            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4">
                 <a href="mailto:rizkifjri0237@gmail.com" class="flex items-center gap-3 bg-slate-800 hover:bg-slate-700 border border-slate-700 px-6 py-4 rounded-xl transition w-full md:w-auto justify-center">
                     <i class="fa-solid fa-envelope text-indigo-400 text-xl"></i>
                     <span>rizkifjri0237@gmail.com</span>
